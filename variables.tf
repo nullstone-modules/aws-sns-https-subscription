@@ -8,7 +8,7 @@ EOF
   default = {}
 }
 
-variable url {
+variable "url" {
   type        = string
   description = <<EOF
 The URL to be subscribed to the connected SNS topic.
