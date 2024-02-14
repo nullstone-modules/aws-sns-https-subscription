@@ -1,0 +1,15 @@
+org_name: Evolve
+name: aws-sns-https-subscription
+friendly_name: SNS HTTPS Subscription
+description: Capability to create a subcription for the app to the connected SNS topic
+category: capability
+subcategory: datastores
+provider_types:
+    - aws
+platform: sns
+subplatform: ""
+type: ""
+appCategories:
+    - container
+    - serverless
+is_public: false
